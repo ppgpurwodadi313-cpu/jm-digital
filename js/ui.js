@@ -101,7 +101,7 @@
   JM.formRead = function (fields, root) {
     const o = {};
     fields.forEach(function (f) {
-      const e = JM.$('#f_' + f.k, root); if (!e) return;
+      const e = JM.$('#f_' + CSS.escape(f.k), root); if (!e) return;
       if (f.t === 'multi') o[f.k] = JM.$$('button.on', e).map(function (b) { return b.dataset.v; }).join(', ');
       else o[f.k] = e.value.trim();
       if (f.req && !o[f.k]) { e.focus && e.focus(); throw new Error('"' + f.label + '" wajib diisi.'); }

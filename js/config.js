@@ -1,1 +1,1 @@
-window.GAS_URL = 'TEMPEL_URL_EXEC_DARI_BAGIAN_A';
+window.GAS_URL = 'https://script.google.com/macros/s/AKfycbz7om4fxKG4MKb2EpjGBkxrXmfqrcSKI_uB4pjaIzyyX_h9NkuARmegK0TXyNIrIJl2jw/exec';

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>JM Digital — Portal Pembinaan Jamaah & Generus</title>
+<meta name="description" content="Sistem informasi database jamaah dan pembinaan generus terpadu (Daerah, Desa, Kelompok).">
+<meta name="theme-color" content="#0F766E">
+<link rel="manifest" href="./manifest.json">
+<link rel="icon" href="./icons/icon-192.png">
+<link rel="apple-touch-icon" href="./icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div id="boot" class="boot"><div class="boot-logo">JM</div><p>Memuat JM Digital…</p></div>
+<div id="app" hidden></div>
+<div id="toasts" aria-live="polite"></div>
+<script src="./js/config.js"></script>
+<script src="./js/api.js"></script>
+<script src="./js/ui.js"></script>
+<script src="./js/app.js"></script>
+<script src="./js/v-dashboard.js"></script>
+<script src="./js/v-jamaah.js"></script>
+<script src="./js/v-guru.js"></script>
+<script src="./js/v-jadwal.js"></script>
+<script src="./js/v-presensi.js"></script>
+<script src="./js/v-kbm.js"></script>
+<script src="./js/v-laporan.js"></script>
+<script src="./js/v-akun.js"></script>
+<script>JM.start();</script>
+</body>
+</html>

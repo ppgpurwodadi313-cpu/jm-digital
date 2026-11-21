@@ -3,7 +3,7 @@
    • Font/CDN: cache saat pertama dipakai (jalan offline berikutnya)
    • Permintaan ke Google Apps Script TIDAK pernah di-cache (data selalu segar; offline ditangani app.js)
    Naikkan VERSI setiap rilis agar cache lama dibuang. */
-const VERSI = 'jm-digital-v1';
+const VERSI = 'jm-digital-v2';
 const RUNTIME = 'jm-runtime-v1';
 const SHELL = ['./', './index.html', './css/style.css', './js/config.js', './js/api.js', './js/ui.js', './js/app.js', './js/v-dashboard.js', './js/v-jamaah.js', './js/v-guru.js', './js/v-jadwal.js', './js/v-presensi.js', './js/v-kbm.js', './js/v-laporan.js', './js/v-akun.js', './manifest.json', './icons/icon-192.png', ];
 
